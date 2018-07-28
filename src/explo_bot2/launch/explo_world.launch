@@ -24,8 +24,8 @@
   <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" 
 output="screen" args="-urdf -param robot_description -model explo_bot"/>
 
-  <!--node pkg="rviz" type="rviz" name="rviz" args="-d /home/robond/Documents/Localization_Project/src/explo_bot/launch/Rvizconfig.rviz"/-->
-  <!--node name="rviz" pkg="rviz" type="rviz" respawn="false"/-->
+  <!--node pkg="rviz" type="rviz" name="rviz" args="-d /home/robond/Documents/SLAM_project/src/explo_bot2/launch/Rvizconfig.rviz"/-->
+  <node name="rviz" pkg="rviz" type="rviz" respawn="false"/>
 
 
 </launch>
