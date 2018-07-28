@@ -2,7 +2,7 @@
 
 <launch>
 
-  <!--include file="$(find explo_bot)/launch/robot_description.launch"/-->
+  <include file="$(find explo_bot)/launch/robot_description.launch"/>
 
   <arg name="world" default="empty"/> 
   <arg name="paused" default="false"/>
