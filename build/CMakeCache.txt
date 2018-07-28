@@ -250,6 +250,12 @@ _CATKIN_GTEST_SRC:FILEPATH=/usr/src/gtest/src/gtest.cc
 catkin_DIR:PATH=/opt/ros/kinetic/share/catkin/cmake
 
 //Value Computed by CMake
+explo_bot2_BINARY_DIR:STATIC=/home/robond/Documents/SLAM_project/build/explo_bot2
+
+//Value Computed by CMake
+explo_bot2_SOURCE_DIR:STATIC=/home/robond/Documents/SLAM_project/src/explo_bot2
+
+//Value Computed by CMake
 explo_bot_BINARY_DIR:STATIC=/home/robond/Documents/SLAM_project/build/explo_bot2
 
 //Value Computed by CMake

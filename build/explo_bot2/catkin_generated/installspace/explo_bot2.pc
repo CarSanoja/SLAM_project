@@ -1,0 +1,8 @@
+prefix=/home/robond/Documents/SLAM_project/install
+
+Name: explo_bot2
+Description: Description of explo_bot2
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/robond/Documents/SLAM_project/install/lib 
+Requires: 

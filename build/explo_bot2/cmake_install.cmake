@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/robond/Documents/SLAM_project/build/explo_bot2/catkin_generated/installspace/explo_bot.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/robond/Documents/SLAM_project/build/explo_bot2/catkin_generated/installspace/explo_bot2.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/explo_bot/cmake" TYPE FILE FILES
-    "/home/robond/Documents/SLAM_project/build/explo_bot2/catkin_generated/installspace/explo_botConfig.cmake"
-    "/home/robond/Documents/SLAM_project/build/explo_bot2/catkin_generated/installspace/explo_botConfig-version.cmake"
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/explo_bot2/cmake" TYPE FILE FILES
+    "/home/robond/Documents/SLAM_project/build/explo_bot2/catkin_generated/installspace/explo_bot2Config.cmake"
+    "/home/robond/Documents/SLAM_project/build/explo_bot2/catkin_generated/installspace/explo_bot2Config-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/explo_bot" TYPE FILE FILES "/home/robond/Documents/SLAM_project/src/explo_bot2/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/explo_bot2" TYPE FILE FILES "/home/robond/Documents/SLAM_project/src/explo_bot2/package.xml")
 endif()
 
