@@ -7,7 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/robond/Documents/SLAM_project/devel:$CMAKE_PREFIX_PATH"
 export PWD="/home/robond/Documents/SLAM_project/build"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/robond/Documents/SLAM_project/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/robond/Documents/SLAM_project/src:$ROS_PACKAGE_PATH"

@@ -117,6 +117,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/robond/Documents/SLAM_project/build/gtest/cmake_install.cmake")
+  include("/home/robond/Documents/SLAM_project/build/explo_bot2/cmake_install.cmake")
 
 endif()
 
