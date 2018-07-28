@@ -2,7 +2,7 @@
 
 <robot name="explo_bot" xmlns:xacro="http://www.ros.org/wiki/xacro">
   
-  <!--xacro:include filename="$(find explo_bot)/urdf/explo_bot.gazebo" /-->
+  <xacro:include filename="$(find explo_bot2)/urdf/explo_bot.gazebo" />
 
   <link name="robot_footprint"></link>
 
