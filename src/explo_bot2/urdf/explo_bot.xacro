@@ -40,44 +40,44 @@
     </visual>
 
     <collision name='center_box'>
-      <origin xyz="0 0 0.35" rpy=" 0 0 0"/>
+      <origin xyz="0 0 0.175" rpy=" 0 0 0"/>
       <geometry>
-        <box size="0.2 0.2 0.40"/>
+        <box size="0.15 0.15 0.2"/>
       </geometry>
     </collision>
 
     <visual name='center_box_visual'>
-      <origin xyz="0 0 0.35" rpy=" 0 0 0"/>
+      <origin xyz="0 0 0.175" rpy=" 0 0 0"/>
       <geometry>
-        <box size="0.2 0.2 0.40"/>
+        <box size="0.15 0.15 0.2"/>
       </geometry>
     </visual>
 
     <collision name='left_arm'>
-      <origin xyz="0.1 0.15 0.25" rpy=" 0 0 0"/>
+      <origin xyz="0.05 0.1 0.17" rpy=" 0 0 0"/>
       <geometry>
-        <box size="0.2 0.1 0.1"/>
+        <box size="0.14 0.05 0.05"/>
       </geometry>
     </collision>
 
     <visual name='left_arm_visual'>
-      <origin xyz="0.1 0.15 0.25" rpy=" 0 0 0"/>
+      <origin xyz="0.05 0.1 0.17" rpy=" 0 0 0"/>
       <geometry>
-        <box size="0.2 0.1 0.1"/>
+        <box size="0.14 0.05 0.05"/>
       </geometry>
     </visual>
 
     <collision name='right_arm'>
-      <origin xyz="0.1 -0.15 0.25" rpy=" 0 0 0"/>
+      <origin xyz="0.05 -0.1 0.17" rpy=" 0 0 0"/>
       <geometry>
-        <box size="0.2 0.1 0.1"/>
+        <box size="0.14 0.05 0.05"/>
       </geometry>
     </collision>
 
     <visual name='right_arm_visual'>
-      <origin xyz="0.1 -0.15 0.25" rpy=" 0 0 0"/>
+      <origin xyz="0.05 -0.1 0.17" rpy=" 0 0 0"/>
       <geometry>
-        <box size="0.2 0.1 0.1"/>
+        <box size="0.14 0.05 0.05"/>
       </geometry>
     </visual>
 
@@ -213,7 +213,7 @@
   </link>
 
   <joint type="fixed" name="camera_joint">
-	    <origin xyz="0.1 0 0.5" rpy="0 0 0"/>
+	    <origin xyz="0.18 0 0.1" rpy="0 0 0"/>
 	    <child link="camera"/>
 	    <parent link="chassis"/>
   </joint>
@@ -245,7 +245,7 @@
   </link>
 
   <joint type="fixed" name="hokuyo_joint">
-	    <origin xyz="0.15 0 0.15" rpy="0 0 0"/>
+	    <origin xyz="0.05 0 0.32" rpy="0 0 0"/>
 	    <child link="hokuyo"/>
 	    <parent link="chassis"/>
   </joint>
