@@ -225,13 +225,9 @@
       <child link="camera_rgbd_frame"/>
   </joint>
 
- <link name="camera_rgbd_frame"/>
+ <link name="camera_rgbd_frame"> </link>
 
-  <joint type="fixed" name="camera_joint3">
-	<origin xyz="0.18 0 0.1" rpy="0 0 0"/>
-	<child link="camera_rgbd_frame"/>
-	<parent link="chassis"/>
-  </joint>
+
 
   <link name='hokuyo'>
 	  <pose>0 0 0.1 0 0 0</pose>
