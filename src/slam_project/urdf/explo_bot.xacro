@@ -4,11 +4,11 @@
   
   <xacro:include filename="$(find slam_project)/urdf/explo_bot.gazebo" />
 
-  <link name="robot_footprint"></link>
+  <link name="base_footprint"></link>
 
   <joint name="robot_footprint_joint" type="fixed">
     <origin xyz="0 0 0" rpy="0 0 0" />
-    <parent link="robot_footprint"/>
+    <parent link="base_footprint"/>
     <child link="chassis" />
   </joint>
 
@@ -207,7 +207,7 @@
 	    <visual name='camera_visual'>
 	      <origin xyz="0 0 0" rpy=" 0 0 0"/>
 	      <geometry>
-		<box size="0.05 0.05 0.05"/>
+		<mesh filename="$(find slam_project)/meshes/kinect.dae"/>
 	      </geometry>
 	    </visual>
   </link>
@@ -250,7 +250,7 @@
 	    <visual name='hokuyo_visual'>
 	      <origin xyz="0 0 0" rpy=" 0 0 0"/>
 	      <geometry>
-		<mesh filename="$(find explo_bot)/meshes/hokuyo.dae"/>
+		<mesh filename="$(find slam_project)/meshes/hokuyo.dae"/>
 	      </geometry>
 	    </visual>
   </link>
