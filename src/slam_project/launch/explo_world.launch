@@ -2,7 +2,7 @@
 
 <launch>
 
-  <include file="$(find explo_bot2)/launch/robot_description.launch"/>
+  <include file="$(find slam_project)/launch/robot_description.launch"/>
 
   <arg name="world" default="empty"/> 
   <arg name="paused" default="false"/>
@@ -13,7 +13,7 @@
 
   <!-- "gazebo_ros" indica un paquete en donde buscar el archivo-->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="world_name" value="$(find explo_bot2)/worlds/udacity.world"/>
+    <arg name="world_name" value="$(find slam_project)/worlds/udacity.world"/>
     <arg name="paused" value="$(arg paused)"/>
     <arg name="use_sim_time" value="$(arg use_sim_time)"/>
     <arg name="gui" value="$(arg gui)"/>
@@ -25,7 +25,7 @@
 output="screen" args="-urdf -param robot_description -model explo_bot"/>
 
   <!--node pkg="rviz" type="rviz" name="rviz" args="-d /home/robond/Documents/SLAM_project/src/explo_bot2/launch/Rvizconfig.rviz"/-->
-  <node name="rviz" pkg="rviz" type="rviz" respawn="false"/>
+  <!--node name="rviz" pkg="rviz" type="rviz" respawn="false"/-->
 
 
 </launch>
