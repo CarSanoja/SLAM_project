@@ -303,52 +303,52 @@ clean: gtest/CMakeFiles/gtest_main.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory explo_bot2
+# Directory level rules for directory slam_project
 
 # Convenience name for "all" pass in the directory.
-explo_bot2/all:
+slam_project/all:
 
-.PHONY : explo_bot2/all
+.PHONY : slam_project/all
 
 # Convenience name for "clean" pass in the directory.
-explo_bot2/clean: explo_bot2/CMakeFiles/_catkin_empty_exported_target.dir/clean
+slam_project/clean: slam_project/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
-.PHONY : explo_bot2/clean
+.PHONY : slam_project/clean
 
 # Convenience name for "preinstall" pass in the directory.
-explo_bot2/preinstall:
+slam_project/preinstall:
 
-.PHONY : explo_bot2/preinstall
+.PHONY : slam_project/preinstall
 
 #=============================================================================
-# Target rules for target explo_bot2/CMakeFiles/_catkin_empty_exported_target.dir
+# Target rules for target slam_project/CMakeFiles/_catkin_empty_exported_target.dir
 
 # All Build rule for target.
-explo_bot2/CMakeFiles/_catkin_empty_exported_target.dir/all:
-	$(MAKE) -f explo_bot2/CMakeFiles/_catkin_empty_exported_target.dir/build.make explo_bot2/CMakeFiles/_catkin_empty_exported_target.dir/depend
-	$(MAKE) -f explo_bot2/CMakeFiles/_catkin_empty_exported_target.dir/build.make explo_bot2/CMakeFiles/_catkin_empty_exported_target.dir/build
+slam_project/CMakeFiles/_catkin_empty_exported_target.dir/all:
+	$(MAKE) -f slam_project/CMakeFiles/_catkin_empty_exported_target.dir/build.make slam_project/CMakeFiles/_catkin_empty_exported_target.dir/depend
+	$(MAKE) -f slam_project/CMakeFiles/_catkin_empty_exported_target.dir/build.make slam_project/CMakeFiles/_catkin_empty_exported_target.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/robond/Documents/SLAM_project/build/CMakeFiles --progress-num= "Built target _catkin_empty_exported_target"
-.PHONY : explo_bot2/CMakeFiles/_catkin_empty_exported_target.dir/all
+.PHONY : slam_project/CMakeFiles/_catkin_empty_exported_target.dir/all
 
 # Build rule for subdir invocation for target.
-explo_bot2/CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
+slam_project/CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/robond/Documents/SLAM_project/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 explo_bot2/CMakeFiles/_catkin_empty_exported_target.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 slam_project/CMakeFiles/_catkin_empty_exported_target.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/robond/Documents/SLAM_project/build/CMakeFiles 0
-.PHONY : explo_bot2/CMakeFiles/_catkin_empty_exported_target.dir/rule
+.PHONY : slam_project/CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 # Convenience name for target.
-_catkin_empty_exported_target: explo_bot2/CMakeFiles/_catkin_empty_exported_target.dir/rule
+_catkin_empty_exported_target: slam_project/CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 .PHONY : _catkin_empty_exported_target
 
 # clean rule for target.
-explo_bot2/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	$(MAKE) -f explo_bot2/CMakeFiles/_catkin_empty_exported_target.dir/build.make explo_bot2/CMakeFiles/_catkin_empty_exported_target.dir/clean
-.PHONY : explo_bot2/CMakeFiles/_catkin_empty_exported_target.dir/clean
+slam_project/CMakeFiles/_catkin_empty_exported_target.dir/clean:
+	$(MAKE) -f slam_project/CMakeFiles/_catkin_empty_exported_target.dir/build.make slam_project/CMakeFiles/_catkin_empty_exported_target.dir/clean
+.PHONY : slam_project/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 # clean rule for target.
-clean: explo_bot2/CMakeFiles/_catkin_empty_exported_target.dir/clean
+clean: slam_project/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 .PHONY : clean
 

@@ -1,2 +1,2 @@
-explo_bot2
+slam_project
 -DCATKIN_DEVEL_PREFIX=/home/robond/Documents/SLAM_project/devel -DCMAKE_INSTALL_PREFIX=/home/robond/Documents/SLAM_project/install -G Unix Makefiles

@@ -266,7 +266,7 @@ _catkin_empty_exported_target: cmake_check_build_system
 
 # fast build rule for target.
 _catkin_empty_exported_target/fast:
-	$(MAKE) -f explo_bot2/CMakeFiles/_catkin_empty_exported_target.dir/build.make explo_bot2/CMakeFiles/_catkin_empty_exported_target.dir/build
+	$(MAKE) -f slam_project/CMakeFiles/_catkin_empty_exported_target.dir/build.make slam_project/CMakeFiles/_catkin_empty_exported_target.dir/build
 .PHONY : _catkin_empty_exported_target/fast
 
 # Help Target

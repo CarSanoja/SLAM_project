@@ -286,6 +286,12 @@ gtest_force_shared_crt:BOOL=OFF
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
+//Value Computed by CMake
+slam_project_BINARY_DIR:STATIC=/home/robond/Documents/SLAM_project/build/slam_project
+
+//Value Computed by CMake
+slam_project_SOURCE_DIR:STATIC=/home/robond/Documents/SLAM_project/src/slam_project
+
 
 ########################
 # INTERNAL cache entries

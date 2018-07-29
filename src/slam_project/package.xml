@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>explo_bot2</name>
+  <name>slam_project</name>
   <version>0.0.0</version>
-  <description>The explo_bot2 package</description>
+  <description>The slam_project package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->

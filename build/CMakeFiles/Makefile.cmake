@@ -13,10 +13,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "catkin/catkin_generated/version/package.cmake"
   "catkin_generated/installspace/_setup_util.py"
   "catkin_generated/order_packages.cmake"
-  "explo_bot2/catkin_generated/package.cmake"
+  "slam_project/catkin_generated/package.cmake"
   "/home/robond/Documents/SLAM_project/src/CMakeLists.txt"
-  "/home/robond/Documents/SLAM_project/src/explo_bot2/CMakeLists.txt"
-  "/home/robond/Documents/SLAM_project/src/explo_bot2/package.xml"
+  "/home/robond/Documents/SLAM_project/src/slam_project/CMakeLists.txt"
+  "/home/robond/Documents/SLAM_project/src/slam_project/package.xml"
   "/opt/ros/kinetic/share/catkin/cmake/../package.xml"
   "/opt/ros/kinetic/share/catkin/cmake/all.cmake"
   "/opt/ros/kinetic/share/catkin/cmake/assert.cmake"
@@ -121,7 +121,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "catkin_generated/stamps/Project/order_packages.cmake.em.stamp"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "gtest/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "explo_bot2/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "slam_project/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -133,5 +133,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/doxygen.dir/DependInfo.cmake"
   "gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
   "gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
-  "explo_bot2/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake"
+  "slam_project/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake"
   )

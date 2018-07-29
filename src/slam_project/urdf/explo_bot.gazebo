@@ -11,7 +11,7 @@
       <wheelSeparation>0.42</wheelSeparation>
       <wheelDiameter>0.2</wheelDiameter>
       <torque>13</torque>
-      <commandTopic>cmd_vel</commandTopic>
+      <commandTopic>/teleop/cmd_vel</commandTopic>
       <odometryTopic>odom</odometryTopic>
       <odometryFrame>odom</odometryFrame>
       <robotBaseFrame>robot_footprint</robotBaseFrame>

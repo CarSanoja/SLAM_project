@@ -1,0 +1,8 @@
+prefix=/home/robond/Documents/SLAM_project/install
+
+Name: slam_project
+Description: Description of slam_project
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/robond/Documents/SLAM_project/install/lib 
+Requires: 
