@@ -40,7 +40,7 @@ read -p 'Press any key to continue to mapping... ' -n1 -s
 
 x-terminal-emulator -x roslaunch slam_project mapping.launch simulation:=true 2>/dev/null &
 sleep 3 &&
-x-terminal-emulator -e roslaunch slam_project rviz.launch 2>/dev/null
+# x-terminal-emulator -e roslaunch slam_project rviz.launch 2>/dev/null
 
 echo ' '
 echo 'Script Completed'
