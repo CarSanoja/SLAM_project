@@ -18,7 +18,7 @@ Clone the required repositories to the `~/catkin_ws/src` folder
 ```sh
 cd ~/catkin_ws/src
 git clone rtabmap_ros
-git clone https://github.com/kevinfructuoso/slam_bot.git
+git clone https://github.com/CarSanoja/SLAM_project
 ```
 
 Follow the steps to properly setup and build RTAB-map from source using this [link](https://github.com/introlab/rtabmap_ros#build-from-source)
